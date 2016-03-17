@@ -1,0 +1,34 @@
+手机适配
+– – –
+480*850   1s
+800*1280 MX2
+1080*1920 我  的魅蓝note2
+
+
+hybrid vs native
+– 想了 下,h5  的使 场景主要在于呈现内容+ 核 业务界 (如滴滴打 的商场,  付宝的花呗)
+– 感觉把 些例如岗位列表类的界  h5,毕竟h5的表单很好写 
+– 其他的使用native
+
+客户端技术选型：
+
+native:
+
+项目框架：自己总结的一套
+
+网络：retrofit or LiteHttp(一款非常轻巧的非常小的网路库)
+
+依赖注入：ButterKnife
+
+图片加载：picasso
+
+消息事件队列：eventbus
+
+数据库： Content Provider + Schematic
+
+h5:
+打算用到ionic ，如果时间充裕想用reactjs尽量把页面元素做成react组件，然后复用性（可以复用到native上面）会很强
+
+
+First solve the problem, then write the code.
+---nex
